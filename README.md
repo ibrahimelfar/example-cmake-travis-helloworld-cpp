@@ -29,8 +29,6 @@ int main(int argc, char *argv[]){
 Second, there is the CMakeLists.txt which tells cmake how to build this simple project.
 
 ```
-cmake_minimum_required(VERSION 3.6.2)
-
 project (hello)
 add_executable(hello hello.cpp)
 ```
@@ -44,5 +42,6 @@ cmake . && make && ./hello
 Last, this is a minimal file for Travis CI to work.
 
 ```
-TODO
+script:
+  - cmake . && make && ./hello
 ```
