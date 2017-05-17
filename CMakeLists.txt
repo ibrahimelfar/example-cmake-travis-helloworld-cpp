@@ -5,7 +5,5 @@
 # Author: Ibrahim ElFar, https:#github.com/ibrahimelfar
 #
 
-cmake_minimum_required(VERSION 3.6.2)
-
 project (hello)
 add_executable(hello hello.cpp)
