@@ -1,4 +1,5 @@
 # example-cmake-helloworld-cpp
+[![Build Status](https://travis-ci.org/ibrahimelfar/example-cmake-travis-helloworld-cpp.svg?branch=master)](https://travis-ci.org/ibrahimelfar/example-cmake-travis-helloworld-cpp)
 
 This is an example of how to use CMake and Travis to build a Hello World C++ program and set up continuous integration.
 
